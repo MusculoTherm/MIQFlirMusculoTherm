@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30410CD31C0085BC00EFF95F /* WorkOutResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30410CD11C0085BC00EFF95F /* WorkOutResultViewController.m */; };
+		30410CD41C0085BC00EFF95F /* WorkOutResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30410CD21C0085BC00EFF95F /* WorkOutResultViewController.xib */; };
+		3087CFE91C00C90100B025B7 /* DemoSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3087CFE71C00C90100B025B7 /* DemoSelectorViewController.m */; };
+		3087CFEA1C00C90100B025B7 /* DemoSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3087CFE81C00C90100B025B7 /* DemoSelectorViewController.xib */; };
+		3092AA341C001CEC00D72019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092AA331C001CEC00D72019 /* main.m */; };
+		3092AA371C001CEC00D72019 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092AA361C001CEC00D72019 /* AppDelegate.m */; };
+		3092AA391C001CEC00D72019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3092AA381C001CEC00D72019 /* Assets.xcassets */; };
+		3092AA3C1C001CEC00D72019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3092AA3A1C001CEC00D72019 /* LaunchScreen.storyboard */; };
+		3092AA441C001DD600D72019 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3092AA431C001DD600D72019 /* Accelerate.framework */; };
+		3092AA461C001EC500D72019 /* FLIROneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3092AA451C001EC500D72019 /* FLIROneSDK.framework */; };
+		3092AA481C001FFC00D72019 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3092AA471C001FFC00D72019 /* libstdc++.tbd */; };
+		3092AA4A1C00209D00D72019 /* sampleframes_hq.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3092AA491C00209D00D72019 /* sampleframes_hq.bundle */; };
+		3092AA4C1C00214500D72019 /* FLIROneSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3092AA4B1C00214500D72019 /* FLIROneSDK.bundle */; };
+		3092AA551C0028C000D72019 /* ThermalCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092AA531C0028C000D72019 /* ThermalCameraViewController.m */; };
+		3092AA561C0028C000D72019 /* ThermalCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3092AA541C0028C000D72019 /* ThermalCameraViewController.xib */; };
+		3092AA591C003BA100D72019 /* ThermalDataUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092AA581C003BA100D72019 /* ThermalDataUploader.m */; };
+		3092AA5C1C003CF100D72019 /* MuscleGroupPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092AA5B1C003CF100D72019 /* MuscleGroupPoint.m */; };
+		3092AA621C00439D00D72019 /* ThermalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092AA611C00439D00D72019 /* ThermalData.m */; };
+		3092AA661C004B1300D72019 /* WorkOutTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092AA641C004B1300D72019 /* WorkOutTimerViewController.m */; };
+		3092AA671C004B1300D72019 /* WorkOutTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3092AA651C004B1300D72019 /* WorkOutTimerViewController.xib */; };
+		3092AA6B1C004C3800D72019 /* WorkOutTypeSelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3092AA691C004C3800D72019 /* WorkOutTypeSelectorTableViewController.m */; };
+		3092AA6C1C004C3800D72019 /* WorkOutTypeSelectorTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3092AA6A1C004C3800D72019 /* WorkOutTypeSelectorTableViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30410CD01C0085BC00EFF95F /* WorkOutResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkOutResultViewController.h; sourceTree = "<group>"; };
+		30410CD11C0085BC00EFF95F /* WorkOutResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkOutResultViewController.m; sourceTree = "<group>"; };
+		30410CD21C0085BC00EFF95F /* WorkOutResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkOutResultViewController.xib; sourceTree = "<group>"; };
+		3087CFE61C00C90100B025B7 /* DemoSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelectorViewController.h; sourceTree = "<group>"; };
+		3087CFE71C00C90100B025B7 /* DemoSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelectorViewController.m; sourceTree = "<group>"; };
+		3087CFE81C00C90100B025B7 /* DemoSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSelectorViewController.xib; sourceTree = "<group>"; };
+		3092AA2F1C001CEC00D72019 /* MIQFlirMusculoTherm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIQFlirMusculoTherm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3092AA331C001CEC00D72019 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3092AA351C001CEC00D72019 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3092AA361C001CEC00D72019 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3092AA381C001CEC00D72019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3092AA3B1C001CEC00D72019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3092AA3D1C001CEC00D72019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3092AA431C001DD600D72019 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3092AA451C001EC500D72019 /* FLIROneSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLIROneSDK.framework; path = FLIROneSDK/FLIROneSDK.framework; sourceTree = "<group>"; };
+		3092AA471C001FFC00D72019 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		3092AA491C00209D00D72019 /* sampleframes_hq.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = sampleframes_hq.bundle; path = FLIROneSDK/sampleframes_hq.bundle; sourceTree = "<group>"; };
+		3092AA4B1C00214500D72019 /* FLIROneSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FLIROneSDK.bundle; path = FLIROneSDK/FLIROneSDK.bundle; sourceTree = SOURCE_ROOT; };
+		3092AA521C0028C000D72019 /* ThermalCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThermalCameraViewController.h; sourceTree = "<group>"; };
+		3092AA531C0028C000D72019 /* ThermalCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThermalCameraViewController.m; sourceTree = "<group>"; };
+		3092AA541C0028C000D72019 /* ThermalCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThermalCameraViewController.xib; sourceTree = "<group>"; };
+		3092AA571C003BA100D72019 /* ThermalDataUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThermalDataUploader.h; sourceTree = "<group>"; };
+		3092AA581C003BA100D72019 /* ThermalDataUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThermalDataUploader.m; sourceTree = "<group>"; };
+		3092AA5A1C003CF100D72019 /* MuscleGroupPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuscleGroupPoint.h; sourceTree = "<group>"; };
+		3092AA5B1C003CF100D72019 /* MuscleGroupPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuscleGroupPoint.m; sourceTree = "<group>"; };
+		3092AA601C00439D00D72019 /* ThermalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThermalData.h; sourceTree = "<group>"; };
+		3092AA611C00439D00D72019 /* ThermalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThermalData.m; sourceTree = "<group>"; };
+		3092AA631C004B1300D72019 /* WorkOutTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkOutTimerViewController.h; sourceTree = "<group>"; };
+		3092AA641C004B1300D72019 /* WorkOutTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkOutTimerViewController.m; sourceTree = "<group>"; };
+		3092AA651C004B1300D72019 /* WorkOutTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkOutTimerViewController.xib; sourceTree = "<group>"; };
+		3092AA681C004C3800D72019 /* WorkOutTypeSelectorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkOutTypeSelectorTableViewController.h; sourceTree = "<group>"; };
+		3092AA691C004C3800D72019 /* WorkOutTypeSelectorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkOutTypeSelectorTableViewController.m; sourceTree = "<group>"; };
+		3092AA6A1C004C3800D72019 /* WorkOutTypeSelectorTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkOutTypeSelectorTableViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3092AA2C1C001CEC00D72019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3092AA481C001FFC00D72019 /* libstdc++.tbd in Frameworks */,
+				3092AA461C001EC500D72019 /* FLIROneSDK.framework in Frameworks */,
+				3092AA441C001DD600D72019 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3092AA261C001CEC00D72019 = {
+			isa = PBXGroup;
+			children = (
+				3092AA491C00209D00D72019 /* sampleframes_hq.bundle */,
+				3092AA471C001FFC00D72019 /* libstdc++.tbd */,
+				3092AA451C001EC500D72019 /* FLIROneSDK.framework */,
+				3092AA431C001DD600D72019 /* Accelerate.framework */,
+				3092AA311C001CEC00D72019 /* MIQFlirMusculoTherm */,
+				3092AA301C001CEC00D72019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3092AA301C001CEC00D72019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3092AA2F1C001CEC00D72019 /* MIQFlirMusculoTherm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3092AA311C001CEC00D72019 /* MIQFlirMusculoTherm */ = {
+			isa = PBXGroup;
+			children = (
+				3092AA351C001CEC00D72019 /* AppDelegate.h */,
+				3092AA361C001CEC00D72019 /* AppDelegate.m */,
+				3092AA381C001CEC00D72019 /* Assets.xcassets */,
+				3092AA3A1C001CEC00D72019 /* LaunchScreen.storyboard */,
+				3092AA3D1C001CEC00D72019 /* Info.plist */,
+				3092AA321C001CEC00D72019 /* Supporting Files */,
+				3092AA521C0028C000D72019 /* ThermalCameraViewController.h */,
+				3092AA531C0028C000D72019 /* ThermalCameraViewController.m */,
+				3092AA541C0028C000D72019 /* ThermalCameraViewController.xib */,
+				3092AA571C003BA100D72019 /* ThermalDataUploader.h */,
+				3092AA581C003BA100D72019 /* ThermalDataUploader.m */,
+				3092AA5A1C003CF100D72019 /* MuscleGroupPoint.h */,
+				3092AA5B1C003CF100D72019 /* MuscleGroupPoint.m */,
+				3092AA601C00439D00D72019 /* ThermalData.h */,
+				3092AA611C00439D00D72019 /* ThermalData.m */,
+				3092AA631C004B1300D72019 /* WorkOutTimerViewController.h */,
+				3092AA641C004B1300D72019 /* WorkOutTimerViewController.m */,
+				3092AA651C004B1300D72019 /* WorkOutTimerViewController.xib */,
+				3092AA681C004C3800D72019 /* WorkOutTypeSelectorTableViewController.h */,
+				3092AA691C004C3800D72019 /* WorkOutTypeSelectorTableViewController.m */,
+				3092AA6A1C004C3800D72019 /* WorkOutTypeSelectorTableViewController.xib */,
+				30410CD01C0085BC00EFF95F /* WorkOutResultViewController.h */,
+				30410CD11C0085BC00EFF95F /* WorkOutResultViewController.m */,
+				30410CD21C0085BC00EFF95F /* WorkOutResultViewController.xib */,
+				3087CFE61C00C90100B025B7 /* DemoSelectorViewController.h */,
+				3087CFE71C00C90100B025B7 /* DemoSelectorViewController.m */,
+				3087CFE81C00C90100B025B7 /* DemoSelectorViewController.xib */,
+			);
+			path = MIQFlirMusculoTherm;
+			sourceTree = "<group>";
+		};
+		3092AA321C001CEC00D72019 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3092AA4B1C00214500D72019 /* FLIROneSDK.bundle */,
+				3092AA331C001CEC00D72019 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3092AA2E1C001CEC00D72019 /* MIQFlirMusculoTherm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3092AA401C001CEC00D72019 /* Build configuration list for PBXNativeTarget "MIQFlirMusculoTherm" */;
+			buildPhases = (
+				3092AA2B1C001CEC00D72019 /* Sources */,
+				3092AA2C1C001CEC00D72019 /* Frameworks */,
+				3092AA2D1C001CEC00D72019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIQFlirMusculoTherm;
+			productName = MIQFlirMusculoTherm;
+			productReference = 3092AA2F1C001CEC00D72019 /* MIQFlirMusculoTherm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3092AA271C001CEC00D72019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = XianLi;
+				TargetAttributes = {
+					3092AA2E1C001CEC00D72019 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 3092AA2A1C001CEC00D72019 /* Build configuration list for PBXProject "MIQFlirMusculoTherm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3092AA261C001CEC00D72019;
+			productRefGroup = 3092AA301C001CEC00D72019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3092AA2E1C001CEC00D72019 /* MIQFlirMusculoTherm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3092AA2D1C001CEC00D72019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3092AA391C001CEC00D72019 /* Assets.xcassets in Resources */,
+				30410CD41C0085BC00EFF95F /* WorkOutResultViewController.xib in Resources */,
+				3092AA671C004B1300D72019 /* WorkOutTimerViewController.xib in Resources */,
+				3092AA6C1C004C3800D72019 /* WorkOutTypeSelectorTableViewController.xib in Resources */,
+				3092AA3C1C001CEC00D72019 /* LaunchScreen.storyboard in Resources */,
+				3092AA4C1C00214500D72019 /* FLIROneSDK.bundle in Resources */,
+				3092AA4A1C00209D00D72019 /* sampleframes_hq.bundle in Resources */,
+				3092AA561C0028C000D72019 /* ThermalCameraViewController.xib in Resources */,
+				3087CFEA1C00C90100B025B7 /* DemoSelectorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3092AA2B1C001CEC00D72019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3092AA6B1C004C3800D72019 /* WorkOutTypeSelectorTableViewController.m in Sources */,
+				30410CD31C0085BC00EFF95F /* WorkOutResultViewController.m in Sources */,
+				3092AA621C00439D00D72019 /* ThermalData.m in Sources */,
+				3092AA661C004B1300D72019 /* WorkOutTimerViewController.m in Sources */,
+				3092AA591C003BA100D72019 /* ThermalDataUploader.m in Sources */,
+				3092AA551C0028C000D72019 /* ThermalCameraViewController.m in Sources */,
+				3092AA371C001CEC00D72019 /* AppDelegate.m in Sources */,
+				3092AA341C001CEC00D72019 /* main.m in Sources */,
+				3087CFE91C00C90100B025B7 /* DemoSelectorViewController.m in Sources */,
+				3092AA5C1C003CF100D72019 /* MuscleGroupPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3092AA3A1C001CEC00D72019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3092AA3B1C001CEC00D72019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3092AA3E1C001CEC00D72019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3092AA3F1C001CEC00D72019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3092AA411C001CEC00D72019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FLIROneSDK",
+				);
+				INFOPLIST_FILE = MIQFlirMusculoTherm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = MusculoTherm.MIQFlirMusculoTherm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3092AA421C001CEC00D72019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FLIROneSDK",
+				);
+				INFOPLIST_FILE = MIQFlirMusculoTherm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = MusculoTherm.MIQFlirMusculoTherm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3092AA2A1C001CEC00D72019 /* Build configuration list for PBXProject "MIQFlirMusculoTherm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3092AA3E1C001CEC00D72019 /* Debug */,
+				3092AA3F1C001CEC00D72019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3092AA401C001CEC00D72019 /* Build configuration list for PBXNativeTarget "MIQFlirMusculoTherm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3092AA411C001CEC00D72019 /* Debug */,
+				3092AA421C001CEC00D72019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3092AA271C001CEC00D72019 /* Project object */;
+}

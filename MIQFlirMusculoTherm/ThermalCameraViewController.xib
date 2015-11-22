@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThermalCameraViewController">
+            <connections>
+                <outlet property="photoButton" destination="D4J-Vd-1cQ" id="euo-kV-7XD"/>
+                <outlet property="thermalIV" destination="ofl-xk-42L" id="mVa-jL-wAl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="441"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ofl-xk-42L">
+                    <rect key="frame" x="8" y="100" width="394" height="250"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4J-Vd-1cQ">
+                    <rect key="frame" x="159" y="380" width="93" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Take a Photo!"/>
+                    <connections>
+                        <action selector="photoButtonTapped:" destination="-1" eventType="touchUpInside" id="ODL-bm-WjU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ofl-xk-42L" secondAttribute="trailing" constant="8" id="Cjb-cl-Feq"/>
+                <constraint firstItem="ofl-xk-42L" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="GE3-hM-ihR"/>
+                <constraint firstItem="D4J-Vd-1cQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="IrV-qp-mQ6"/>
+                <constraint firstItem="ofl-xk-42L" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="O8W-jk-bRa"/>
+                <constraint firstItem="D4J-Vd-1cQ" firstAttribute="top" secondItem="ofl-xk-42L" secondAttribute="bottom" constant="30" id="WTj-WW-YQ2"/>
+                <constraint firstAttribute="bottom" secondItem="ofl-xk-42L" secondAttribute="bottom" constant="91" id="nuF-DF-NCk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="296" y="190.5"/>
+        </view>
+    </objects>
+</document>
